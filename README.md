@@ -5,6 +5,8 @@ A simple 2D snake-style game developed with C++ and SFML.
 This project was originally created as a small C++ practice project.  
 It uses SFML for graphics, window handling, keyboard input, and audio playback.
 
+![Gameplay Screenshot](docs/gameplay.png)
+
 ## Features
 
 - 2D snake-style gameplay
