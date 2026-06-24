@@ -1,21 +1,27 @@
 # Gluttony Yuyuko
 
-A simple 2D snake-style game developed with C++ and SFML.
+Gluttony Yuyuko is a simple 2D snake-style game developed with C++ and SFML.
 
-This project was originally created as a small C++ practice project.  
-It uses SFML for graphics, window handling, keyboard input, and audio playback.
+This project was created as a personal C++ practice project. It demonstrates basic game loop design, keyboard input handling, collision detection, random food generation, image loading, audio playback, and object-oriented programming in C++.
 
 ![Gameplay Screenshot](docs/gameplay.png)
 
 ## Features
 
 - 2D snake-style gameplay
-- Character movement and collision detection
-- Food generation and score-related logic
+- Grid-based character movement
+- Direction control using keyboard input
+- Food generation with different food types
+- Collision detection and score-related logic
 - Image and audio resource loading
-- Keyboard event handling
+- Game start handling with mouse input
 - Object-oriented structure with multiple classes
 - Built and debugged with Visual Studio 2022
+
+## Controls
+
+- Arrow keys: Move the character
+- Left mouse click: Start the game
 
 ## Technologies
 
@@ -43,20 +49,26 @@ Gluttony-Yuyuko/
 ## How to Build
 
 1. Open `貪吃幽幽子.sln` with Visual Studio 2022.
-2. Set the build configuration to `Debug | x64`.
-3. Make sure the SFML include path is set:
+
+2. Set the build configuration to:
+
+```text
+Debug | x64
+```
+
+3. Make sure the SFML include path is set to:
 
 ```text
 $(ProjectDir)SFML-2.6.0\include
 ```
 
-4. Make sure the SFML library path is set:
+4. Make sure the SFML library path is set to:
 
 ```text
 $(ProjectDir)SFML-2.6.0\lib
 ```
 
-5. For Debug mode, link the following libraries:
+5. For Debug mode, link the following SFML libraries:
 
 ```text
 sfml-graphics-d.lib
@@ -66,21 +78,27 @@ sfml-audio-d.lib
 sfml-network-d.lib
 ```
 
-6. Press `F5` or click `Local Windows Debugger` to run the game.
+6. Make sure the working directory is set correctly so that the `images/` and `music/` folders can be loaded at runtime.
 
-## What I Practiced
+7. Press `F5` or click `Local Windows Debugger` to run the game.
 
-Through this project, I practiced:
+## What This Project Demonstrates
+
+Through this project, I practiced and implemented:
 
 - C++ class design
 - Splitting code into header and source files
 - Using a third-party C++ library
-- Handling game loops and keyboard input
-- Managing image and audio resources
-- Building and debugging a C++ project in Visual Studio
+- SFML window creation and rendering
+- Game loop structure
+- Keyboard and mouse event handling
+- Collision detection
+- Random food spawning
+- Image and audio resource management
+- Visual Studio project configuration and debugging
 
 ## Notes
 
-This is a personal practice project and not a commercial game.
+This project is for personal learning and portfolio demonstration purposes.
 
-Some assets may need to be replaced before using this project as a public portfolio project.
+Some character images and audio files may be fan-made or third-party assets. They are not intended for commercial use. If this project is used as a public portfolio project, the assets should be reviewed or replaced with properly licensed resources.
