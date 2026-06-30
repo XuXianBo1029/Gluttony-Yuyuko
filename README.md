@@ -6,7 +6,7 @@ This project was created as a personal C++ practice project. It demonstrates bas
 
 ## Demo Video
 
-[![Demo Video](docs/gameplay.png)](https://www.youtube.com/watch?v=hVZ9q55M7_M)
+[![Demo Video](docs/gameplay.png)]
 
 ## Features
 
