@@ -4,7 +4,9 @@ Gluttony Yuyuko is a simple 2D snake-style game developed with C++ and SFML.
 
 This project was created as a personal C++ practice project. It demonstrates basic game loop design, keyboard input handling, collision detection, random food generation, image loading, audio playback, and object-oriented programming in C++.
 
-[![Demo Video](docs/gameplay.png)]([https://www.youtube.com/watch?v=abc123](https://youtube.com/shorts/hVZ9q55M7_M?feature=share))
+## Demo Video
+
+[![Demo Video](docs/gameplay.png)](https://www.youtube.com/watch?v=hVZ9q55M7_M)
 
 ## Features
 
